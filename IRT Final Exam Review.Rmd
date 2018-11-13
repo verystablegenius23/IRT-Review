@@ -35,3 +35,18 @@ As a result of these 4 steps one has the information to:
 
 2. Estimate the amount of the characteristic one exhibits.
 
+Some things about the ICC = [$P(\theta)$]:
+
+There are an infinite number of choices for the ICC for any given instrument. The latent dimension $\theta$ is the dimension of interest for estimation but it is not possible to perfectly measure this. The measurement process (4 steps) is a crude method to estimate $\theta$ and is not perfect.
+
+\textbf{History of IRT}
+
+- In the 1890s Binet and Simon attempted to measure intelligence in children. Their goal was to differentiate between low ability children and children who weren't putting forth effort in school.
+
+- In the 1920s Burt modeled the number of children who correctly answered increasingly difficult problems resulting in the creation of an S-shaped curve similar to the ones discussed later in this class.
+
+- Also in the 1920s, Thurstone began to model the curves that Burt graphed using a CDF of the normal distribution with appropriate means and variances.
+
+- Also in the 20th century, the famous statistician RA Fisher invented applications of the maximum likelihood (ML) method.
+
+- In the 1950s, Lord brought IRT to the social sciences, but Lazarsfeld changed the game in 1950 when he introduced the concept of local independence (LI) within the context of latent structure analysis (LSA). The notion of LI is fundamental to modern IRT. He also introduced $\theta$ as a latent variable on a continuum underlying the observed response. Lord, in the later 1950s developed the first statistically rigorous application of IRT.
