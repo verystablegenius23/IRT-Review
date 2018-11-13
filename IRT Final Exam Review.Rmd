@@ -1,0 +1,37 @@
+---
+title: "IRT Final Exam Review"
+author: "Joe Marr"
+date: "November 13, 2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\textbf{Lecture 1}
+
+The big picture is that Item Response Theory (IRM), also called Item Response Modeling (IRM), is mainly concerned with the relationship between the probability of a response and the underlying latent dimension.
+
+\begin{align}
+P = P(\theta)
+\end{align}
+
+This methodology models the Item Characteristics Curve (ICC).
+
+IRT deals with 4 things:
+
+1. \textbf{Postulating Models} that describe the relationship between the probability of response and $\theta$.
+
+2. \textbf{Estimating} these models using an available data set.
+
+3. \textbf{Evaluating Model Fit} and determining which model to select.
+
+4. \textbf{Estimating Individual $\theta$s} based on the model fit for the correct dimensions.
+
+As a result of these 4 steps one has the information to:
+
+1. Characterize estimated parameters for the items.
+
+2. Estimate the amount of the characteristic one exhibits.
+
